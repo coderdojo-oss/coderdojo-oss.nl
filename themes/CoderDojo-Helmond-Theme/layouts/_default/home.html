@@ -26,7 +26,7 @@
 
       {{ range $last_edition }}
       <figure>
-        <a href="#" alt="{{ .Title }}">
+        <a href="{{.Site.Params.aanmeldLink}}" alt="{{ .Title }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full rounded-t-lg" />
           <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
             <span
