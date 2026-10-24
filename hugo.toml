@@ -43,10 +43,6 @@ theme = 'CoderDojo-Helmond-Theme'
   url = "/links"
 
 [[params.navigation]]
-  title = "Bestuur"
-  url = "/bestuur"
-
-[[params.navigation]]
   title = "Over ons"
   url = "/overons"
 
