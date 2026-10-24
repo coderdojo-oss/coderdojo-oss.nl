@@ -15,7 +15,7 @@
   
       {{ range $pages }}
       <figure class="drop-shadow-md">
-        <a href="{{ .Params.eventbrite | default .RelPermalink }}" class="block">
+        <a href="{{ .Params.eventbrite | default .Permalink }}" class="block">
         <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full rounded-t-lg" />
         <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
           {{ $tagColor := cond (eq .Section "edities") "green" "orange" }}

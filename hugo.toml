@@ -2,6 +2,7 @@ baseURL = 'https://coderdojo-oss.nl'
 languageCode = 'nl-nl'
 title = 'CoderDojo Oss'
 theme = 'CoderDojo-Helmond-Theme'
+relativeURLs = true
 
 [params]
   aanmeldLink = 'https://www.eventbrite.nl/o/infocoderdojo-ossnl-9037398032'
