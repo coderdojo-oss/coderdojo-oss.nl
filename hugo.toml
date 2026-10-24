@@ -19,6 +19,10 @@ theme = 'CoderDojo-Helmond-Theme'
   url = "/edities"
 
 [[params.navigation]]
+  title = "Nieuws"
+  url = "/nieuws"
+
+[[params.navigation]]
   title = "Ninja"
   url = "/ninja"
 
