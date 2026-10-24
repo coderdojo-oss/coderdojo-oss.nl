@@ -19,20 +19,32 @@ theme = 'CoderDojo-Helmond-Theme'
   url = "/edities"
 
 [[params.navigation]]
+  title = "Ninja"
+  url = "/ninja"
+
+[[params.navigation]]
+  title = "Mentoren"
+  url = "/mentoren"
+
+[[params.navigation]]
+  title = "Donaties"
+  url = "/donaties"
+
+[[params.navigation]]
+  title = "Sponsoren"
+  url = "/sponsoren"
+
+[[params.navigation]]
+  title = "Links"
+  url = "/links"
+
+[[params.navigation]]
   title = "Bestuur"
   url = "/bestuur"
-
-#[[params.navigation]]
-#  title = "Mentoren"
-#  url = "/mentoren"
 
 [[params.navigation]]
   title = "Over ons"
   url = "/overons"
-
-#[[params.navigation]]
-#  title = "Sponsoren"
-#  url = "/sponsoren"
 
 [[params.navigation]]
   title = "Contact"
