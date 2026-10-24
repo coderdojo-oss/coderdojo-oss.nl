@@ -10,7 +10,7 @@
      <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-10 max-md:space-y-10">
       {{ range (where .Site.RegularPages.ByDate.Reverse "Section" "nieuws") }}
       <figure class="drop-shadow-md">
-        <a href="{{ .RelPermalink }}" class="block">
+        <a href="{{ .Permalink }}" class="block">
         <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full rounded-t-lg" />
         <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
           <span
