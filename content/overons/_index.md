@@ -1,6 +1,8 @@
 ---
 title: Over Ons
 notscrollable: true
+aliases:
+  - /over-coderdojo-oss/
 ---
 
 De wereld verandert continu, het draait steeds meer om automatisering, robotisering, big data en IoT(S). Gelet op deze

@@ -1,0 +1,22 @@
+{{- with site.Data.wordpress }}
+{{- $targets := dict }}
+{{- range $id, $path := .ids }}
+  {{- if eq $path "aanmelden" }}
+    {{- $targets = merge $targets (dict $id site.Params.aanmeldLink) }}
+  {{- else }}
+    {{- with site.GetPage $path }}{{ $targets = merge $targets (dict $id .Permalink) }}{{ end }}
+  {{- end }}
+{{- end }}
+{{- $archive := "" }}
+{{- with site.GetPage .archive }}{{ $archive = .Permalink }}{{ end }}
+<script>
+  (function () {
+    var targets = {{ $targets }};
+    var query = new URLSearchParams(location.search);
+    var id = query.get("page_id") || query.get("p");
+    var target = id && targets[id];
+    if (!target && (query.has("cat") || query.has("m") || query.has("author"))) target = {{ $archive }};
+    if (target) location.replace(target);
+  })();
+</script>
+{{- end }}
