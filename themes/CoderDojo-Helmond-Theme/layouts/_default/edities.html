@@ -15,7 +15,7 @@
   
       {{ range $pages }}
       <figure class="drop-shadow-md">
-        <a href="#" alt="{{ .Title }}"></a>
+        <a href="{{ .Params.eventbrite | default .RelPermalink }}" class="block">
         <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full rounded-t-lg" />
         <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
           {{ $tagColor := cond (eq .Section "edities") "green" "orange" }}
@@ -27,6 +27,7 @@
           <p class="text-gray-600">{{ .Params.description }}</p>
           <time datetime="{{ .Date.Format " 2006-01-02" }}" class="text-sm">{{ .Date.Format "January 2, 2006" }}</time>
         </figcaption>
+        </a>
       </figure>
       {{ end }}
      </main>

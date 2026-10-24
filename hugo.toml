@@ -8,6 +8,7 @@ theme = 'CoderDojo-Helmond-Theme'
   contactEmail = 'info@coderdojo-oss.nl'
   color = "#1B8B8D"
   accentColor = "#27CBCD"
+  mapUrl = 'https://www.openstreetmap.org/export/embed.html?bbox=5.5640%2C51.7700%2C5.5716%2C51.7730&layer=mapnik&marker=51.77149%2C5.56786'
 
 [[params.navigation]]
   title = "Home"

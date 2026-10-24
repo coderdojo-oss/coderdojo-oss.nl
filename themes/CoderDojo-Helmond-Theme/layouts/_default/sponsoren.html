@@ -5,18 +5,22 @@
   </section>
   <article class="my-10">
       <h2 class="text-4xl font-bold">Sponsoren</h2>
-      <p class="text-lg">Bij onze CoderDojo wordt mede mogelijk gemaakt door de sponsoren: </p>     
+      <p class="text-lg">{{ .Params.subtitle }}</p>
+      {{ with .Content }}<div class="prose prose-lg max-w-3xl mt-6">{{ . }}</div>{{ end }}
   </article>
  <main class="grid grid-cols-1 space-y-10">
-  {{ range .Site.RegularPages.ByDate.Reverse }}
+  {{ range .Site.RegularPages.ByWeight }}
   {{ if eq .Section "sponsoren" }}
-  <figure class="flex flex-col bg-white border border-gray-200 rounded-lg shadow cursor-pointer md:flex-row md:items-center">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-        src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="">
+  <figure class="flex flex-col bg-white border border-gray-200 rounded-lg shadow md:flex-row md:items-center">
+    {{ with .Params.image }}
+    <img class="object-contain w-full rounded-t-lg h-48 p-4 md:w-48 md:rounded-none md:rounded-s-lg"
+        src="{{ . }}" alt="">
+    {{ end }}
     <figcaption class="flex flex-col p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight">{{ .Params.name }}</h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight">{{ $name := .Params.name }}{{ with .Params.link }}<a href="{{ . }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}</h5>
         <p class="mb-3 font-normal">{{ .Params.description }}</p>
     </figcaption>
+  </figure>
   {{ end }}
 {{ end }}
       
