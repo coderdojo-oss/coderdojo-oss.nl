@@ -1,0 +1,28 @@
+# Old WordPress links (/?page_id=29, /?p=172) mapped to the new pages.
+# GitHub Pages serves the homepage for these, which then forwards the visitor.
+# "aanmelden" forwards to the Eventbrite page in params.aanmeldLink.
+ids:
+  # Pages
+  "10": /edities      # Wanneer?
+  "14": /contact      # Waar?
+  "20": /ninja        # Wat?
+  "25": /overons      # CoderDojo-Oss
+  "29": /ninja        # Ninja
+  "32": /contact      # Contact
+  "42": /edities      # Agenda
+  "56": aanmelden     # Inschrijven
+  "62": /links        # Links
+  "77": /mentoren     # Mentor
+  "111": /donaties    # Donaties
+  "139": /sponsoren   # Met dank aan
+  "187": /benodigdheden
+  # Posts
+  "1": /nieuws/mentoren
+  "48": /nieuws/mega-coderdojo
+  "158": /nieuws/mega-coderdojo-2
+  "172": /nieuws/code-qube-komt-naar-coderdojo-oss
+  "182": /nieuws/video-bezoek-code-qube-berghem
+  "191": /nieuws      # unpublished draft
+  "219": /nieuws/coderdojo
+# Archive, category and author links
+archive: /nieuws

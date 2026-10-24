@@ -1,0 +1,14 @@
+{{- $target := .Params.redirect | default site.Params.aanmeldLink -}}
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}">
+<head>
+  <title>{{ .Title }} | {{ site.Title }}</title>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ $target }}">
+  <link rel="canonical" href="{{ $target }}">
+</head>
+<body>
+  <a href="{{ $target }}">{{ .Title }}</a>
+</body>
+</html>

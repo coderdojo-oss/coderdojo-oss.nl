@@ -1,6 +1,8 @@
 ---
 title: Mentoren
 notscrollable: true
+aliases:
+  - /mentor/
 ---
 
 Vanwege continuïteit en ambitie zijn enthousiaste mentoren, die kennis hebben van programmeren en graag kinderen hierin
