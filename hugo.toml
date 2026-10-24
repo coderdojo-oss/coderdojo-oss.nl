@@ -17,36 +17,36 @@ relativeURLs = true
 
 [[params.navigation]]
   title = "Edities"
-  url = "/edities"
+  url = "/edities/"
 
 [[params.navigation]]
   title = "Nieuws"
-  url = "/nieuws"
+  url = "/nieuws/"
 
 [[params.navigation]]
   title = "Ninja"
-  url = "/ninja"
+  url = "/ninja/"
 
 [[params.navigation]]
   title = "Mentoren"
-  url = "/mentoren"
+  url = "/mentoren/"
 
 [[params.navigation]]
   title = "Donaties"
-  url = "/donaties"
+  url = "/donaties/"
 
 [[params.navigation]]
   title = "Sponsoren"
-  url = "/sponsoren"
+  url = "/sponsoren/"
 
 [[params.navigation]]
   title = "Links"
-  url = "/links"
+  url = "/links/"
 
 [[params.navigation]]
   title = "Over ons"
-  url = "/overons"
+  url = "/overons/"
 
 [[params.navigation]]
   title = "Contact"
-  url = "/contact"
+  url = "/contact/"
