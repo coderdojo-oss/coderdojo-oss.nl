@@ -1,13 +1,14 @@
-baseURL = 'https://coderdojohelmond.nl'
+baseURL = 'https://coderdojo-oss.nl'
 languageCode = 'nl-nl'
-title = 'CoderDojo Helmond'
+title = 'CoderDojo Oss'
 theme = 'CoderDojo-Helmond-Theme'
 
 [params]
   aanmeldLink = 'https://www.eventbrite.nl/o/infocoderdojo-ossnl-9037398032'
-  contactEmail = 'contact@coderdojohelmond.nl'
-  color = "#FFB005"
-  
+  contactEmail = 'info@coderdojo-oss.nl'
+  color = "#1B8B8D"
+  accentColor = "#27CBCD"
+
 [[params.navigation]]
   title = "Home"
   url = "/"
