@@ -11,9 +11,13 @@
           <a href="mailto:{{.Site.Params.contactEmail}}">{{ .Site.Params.contactEmail }}</a>. Wij nemen dan z.s.m. contact met je op.
       </p>     
       
+      {{ with .Content }}<div class="prose prose-lg max-w-3xl">{{ . }}</div>{{ end }}
+
+      {{ with .Site.Params.mapUrl }}
       <iframe width="425" height="350"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=5.658831%2C51.479051%2C5.654276%2C51.477441&amp;layer=mapnik"
+          src="{{ . }}"
           style="border: 1px solid black"></iframe><br />
+      {{ end }}
   </article>
 
 {{ partial "aanmeldbanner.html" . }}

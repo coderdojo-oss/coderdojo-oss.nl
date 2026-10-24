@@ -3,13 +3,19 @@ title: Over Ons
 notscrollable: true
 ---
 
-Het doel van de stichting is het bevorderen en verbreden van de kennis, het talent en de vaardigheden van jongeren op
-het gebied van informatie- en communicatietechnologie.
+De wereld verandert continu, het draait steeds meer om automatisering, robotisering, big data en IoT(S). Gelet op deze
+veranderingen wordt het steeds belangrijker dat kinderen kennis hebben van en al vroeg vertrouwd raken met programmeren.
+Dat is wat CoderDojo-Oss beoogt.
 
-Dit bereiken we door het creëren van een veilige leeromgeving waarin kinderen van diverse afkomst en met verschillende
-vaardigheidsniveaus worden begeleid en gestimuleerd om aan de slag te gaan met programmeren. Door de kinderen zelf de
-invloed te geven op het leerproces, wordt hun nieuwsgierigheid geactiveerd en leren ze zowel van als met elkaar.
+CoderDojo creëert een leeromgeving waarin kinderen worden begeleid en gestimuleerd om aan de slag te gaan met
+programmeren. Door de kinderen zelf de controle te geven over het leerproces, wordt hun nieuwsgierigheid aangewakkerd en
+leren ze van en met elkaar. Zo worden ze zowel op technisch en sociaal vlak gevormd tot de effectieve programmeurs die
+nodig zullen zijn in de toekomst.
 
-Op deze manier worden ze op zowel technisch als sociaal vlak gevormd en zullen ze zich bewust worden van de
-mogelijkheden van informatie technologie. Een gedeelte zal worden geprikkeld zich te ontwikkelen tot de effectieve
-programmeurs die nodig zijn in de toekomst.
+Een CoderDojo is gratis voor de deelnemende Ninja's (kinderen van 7 t/m 17 jaar).
+
+CoderDojo-Oss wordt georganiseerd door vrijwilligers.
+
+*Samen kennis vermenigvuldigen door te delen.*
+
+CoderDojo-Oss is gestart op 10-Okt.-2015 (gelijk met de CodeWeek 2015).

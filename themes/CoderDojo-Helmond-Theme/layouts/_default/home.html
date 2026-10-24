@@ -26,7 +26,7 @@
 
       {{ range $last_edition }}
       <figure>
-        <a href="#" alt="{{ .Title }}">
+        <a href="{{.Site.Params.aanmeldLink}}" alt="{{ .Title }}">
           <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full rounded-t-lg" />
           <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
             <span
@@ -42,7 +42,21 @@
   </section>
 </header>
 
-
+{{ with .Params.featured }}
+<section class="container mx-auto px-5 pt-16">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+    {{ range . }}
+    <article class="space-y-4">
+      <img src="{{ .image }}" alt="{{ .title }}" class="w-44 h-44 mx-auto rounded-full object-cover grayscale" />
+      <h2 class="text-4xl">{{ .title }}</h2>
+      <p class="text-gray-700">{{ .text }}</p>
+      <a href="{{ .link }}"
+        class="inline-block rounded-full bg-[{{ $bgColor }}] px-6 py-2 font-bold text-white">Lees meer »</a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
 
 <section class="container mx-auto mx-auto px-5 py-10">
   <article class="text-center my-10">
@@ -58,7 +72,7 @@
 
     {{ range $pages }}
     <figure class="drop-shadow-md">
-      <a href="#" alt="{{ .Title }}"></a>
+      <a href="{{ .Params.eventbrite | default .RelPermalink }}" class="block">
       <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full rounded-t-lg" />
       <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
         {{ $tagColor := cond (eq .Section "edities") "green" "orange" }}
@@ -70,6 +84,7 @@
         <p class="text-gray-600">{{ .Params.description }}</p>
         <time datetime="{{ .Date.Format " 2006-01-02" }}" class="text-sm">{{ .Date.Format "January 2, 2006" }}</time>
       </figcaption>
+      </a>
     </figure>
     {{ end }}
   </main>

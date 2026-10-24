@@ -1,13 +1,15 @@
-baseURL = 'https://coderdojohelmond.nl'
+baseURL = 'https://coderdojo-oss.nl'
 languageCode = 'nl-nl'
-title = 'CoderDojo Helmond'
+title = 'CoderDojo Oss'
 theme = 'CoderDojo-Helmond-Theme'
 
 [params]
-  aanmeldLink = 'https://forms.office.com/Pages/ResponsePage.aspx?id=C5C-4TgS1UK9F-ukF3dwoCeUoJYHq5VJjQ4_GcVfU6FUQjNCMVFOWkdGME1HWElXUU5YUkZQR1I1QiQlQCN0PWcu'
-  contactEmail = 'contact@coderdojohelmond.nl'
-  color = "#FFB005"
-  
+  aanmeldLink = 'https://www.eventbrite.nl/o/infocoderdojo-ossnl-9037398032'
+  contactEmail = 'info@coderdojo-oss.nl'
+  color = "#1B8B8D"
+  accentColor = "#27CBCD"
+  mapUrl = 'https://www.openstreetmap.org/export/embed.html?bbox=5.5640%2C51.7700%2C5.5716%2C51.7730&layer=mapnik&marker=51.77149%2C5.56786'
+
 [[params.navigation]]
   title = "Home"
   url = "/"
@@ -17,20 +19,32 @@ theme = 'CoderDojo-Helmond-Theme'
   url = "/edities"
 
 [[params.navigation]]
-  title = "Bestuur"
-  url = "/bestuur"
+  title = "Nieuws"
+  url = "/nieuws"
 
-#[[params.navigation]]
-#  title = "Mentoren"
-#  url = "/mentoren"
+[[params.navigation]]
+  title = "Ninja"
+  url = "/ninja"
+
+[[params.navigation]]
+  title = "Mentoren"
+  url = "/mentoren"
+
+[[params.navigation]]
+  title = "Donaties"
+  url = "/donaties"
+
+[[params.navigation]]
+  title = "Sponsoren"
+  url = "/sponsoren"
+
+[[params.navigation]]
+  title = "Links"
+  url = "/links"
 
 [[params.navigation]]
   title = "Over ons"
   url = "/overons"
-
-#[[params.navigation]]
-#  title = "Sponsoren"
-#  url = "/sponsoren"
 
 [[params.navigation]]
   title = "Contact"
